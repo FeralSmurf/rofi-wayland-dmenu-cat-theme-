@@ -1,1 +1,2 @@
-@theme "/home/feralsmurf/.config/rofi/dmenu.rasi"
+// @theme "/home/feralsmurf/.config/rofi/dmenu.rasi"
+@theme "/home/feralsmurf/.config/rofi/catppuccin.rasi"
