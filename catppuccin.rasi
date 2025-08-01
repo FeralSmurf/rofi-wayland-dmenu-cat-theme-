@@ -7,16 +7,16 @@
     selected-normal-foreground:  rgba ( 205, 214, 244, 100 % );
     foreground:                  rgba ( 205, 214, 244, 100 % );
     normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 24, 24, 37, 100 % );
+    alternate-normal-background: rgba ( 30, 30, 46, 100 % );
     red:                         rgba ( 243, 139, 168, 100 % );
     selected-urgent-foreground:  rgba ( 243, 139, 168, 100 % );
     blue:                        rgba ( 137, 180, 250, 100 % );
     urgent-foreground:           rgba ( 243, 139, 168, 100 % );
-    alternate-urgent-background: rgba ( 24, 24, 37, 100 % );
+    alternate-urgent-background: rgba ( 30, 30, 46, 100 % );
     active-foreground:           rgba ( 137, 180, 250, 100 % );
     lightbg:                     rgba ( 30, 30, 46, 100 % );
     selected-active-foreground:  rgba ( 137, 180, 250, 100 % );
-    alternate-active-background: rgba ( 24, 24, 37, 100 % );
+    alternate-active-background: rgba ( 30, 30, 46, 100 % );
     background:                  rgba ( 30, 30, 46, 100 % );
     bordercolor:                 rgba ( 88, 91, 112, 100 % );
     alternate-normal-foreground: @foreground;
@@ -44,7 +44,7 @@ mainbox {
     padding: 0;
 }
 message {
-    border:       1px dash 0px 0px ;
+    border:       1px solid 0px 0px ;
     border-color: @separatorcolor;
     padding:      1px ;
 }
@@ -53,7 +53,7 @@ textbox {
 }
 listview {
     fixed-height: 0;
-    border:       2px dash 0px 0px ;
+    border:       2px solid 0px 0px ;
     border-color: @separatorcolor;
     spacing:      2px ;
     scrollbar:    true;
@@ -110,7 +110,7 @@ scrollbar {
     padding:      0;
 }
 mode-switcher {
-    border:       2px dash 0px 0px ;
+    border:       2px solid 0px 0px ;
     border-color: @separatorcolor;
 }
 button.selected {
