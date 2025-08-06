@@ -23,7 +23,7 @@
     normal-background:           rgba ( 30, 30, 46, 100 % );
     lightfg:                     rgba ( 166, 173, 200, 100 % );
     selected-normal-background:  rgba ( 49, 50, 68, 100 % );
-    border-color:                @foreground;
+    border-color:                @bordercolor;
     spacing:                     2;
     separatorcolor:              rgba ( 88, 91, 112, 100 % );
     urgent-background:           rgba ( 30, 30, 46, 100 % );
@@ -36,7 +36,9 @@
 }
 window {
     background-color: @background;
-    border:           1;
+    border:           2;
+    border-radius:    12;
+    border-color:     @bordercolor;
     padding:          5;
 }
 mainbox {
